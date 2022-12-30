@@ -69,6 +69,8 @@ func main() {
     
     
     http.HandleFunc("/", indexHandler)
+    http.HandleFunc("/account", indexHandler)
+    http.HandleFunc("/profile", indexHandler)
 
 
 
